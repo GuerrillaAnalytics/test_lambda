@@ -1,4 +1,4 @@
-# region: eu-west-1
+region: eu-west-1
 
 function_name: my_lambda_function
 handler: service.handler
