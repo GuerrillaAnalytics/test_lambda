@@ -7,7 +7,7 @@ logger.setLevel(logging.INFO)
 def handler(event, context):
     # Your code goes here!
     logger.info(event)
-    
+
     e = event.get("e")
     pi = event.get("pi")
     result = my_logic(e, pi)
